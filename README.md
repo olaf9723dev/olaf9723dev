@@ -117,7 +117,7 @@ operational efficiency.
 Feel free to reach out for collaboration opportunities, technical discussion, or just to say hi! 
 
 ### Want to Send Me An Email? 
-(Check my LinkedIn, because after YEARS of GitHub emails being directly exposed, they have FINALLY fixed it thanks to my badgering)
+
 ```html
 <input id=username type="text" placeholder="github username or repo link" value="olaf9723dev">
 <button onclick="fetch(`https://api.github.com/users/${username.value.replace(/^.*com[/]([^/]*).*$/,'$1')}/events/public`).then(e=> e.json()).then(e => [...new Set([].concat.apply([],e.filter(x => x.type==='PushEvent').map(x => x.payload.commits.map(c => c.author.email)))).values()]).then(x => results.innerText = x)">GO</button>
