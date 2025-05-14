@@ -74,8 +74,8 @@ operational efficiency.
 
 <p>
 <img align='center' src='https://github-readme-stats.vercel.app/api/top-langs/?username=olaf9723dev&theme=dark'>
-<img align='center' src='https://streak-stats.demolab.com/?user=olaf9723dev&theme=dark'>
 </p>
+
 [![trophy](https://github-profile-trophy.vercel.app/?username=olaf9723dev&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 🌟 Fun Projects:
